@@ -1,0 +1,1564 @@
+{
+  "mode": "write",
+  "source_count": 6,
+  "sources": [
+    "No title (7_11_2026 4\uff1a17\uff1a32 PM).html",
+    "Place Your Order - Amazon Checkout (7_11_2026 4\uff1a20\uff1a25 PM).html",
+    "Place Your Order - Amazon Checkout (7_11_2026 4\uff1a23\uff1a25 PM).html",
+    "Track Package (7_11_2026 4\uff1a08\uff1a13 PM).html",
+    "Your Addresses (7_11_2026 4\uff1a12\uff1a22 PM).html",
+    "Your Orders (7_11_2026 4\uff1a07\uff1a46 PM).html"
+  ],
+  "count": 6,
+  "seed": 20260711,
+  "safety": {
+    "source_files_modified": false,
+    "manifest_contains_raw_original_values": false,
+    "leakage_audit_passed": true
+  },
+  "examples": [
+    {
+      "index": 0,
+      "source": "No title (7_11_2026 4\uff1a17\uff1a32 PM).html",
+      "output": "training/generated-html/amazon_synth_00000_No_title_(7_11_2026_4\uff1a17\uff1a32_PM).html",
+      "would_write": "training/generated-html/amazon_synth_00000_No_title_(7_11_2026_4\uff1a17\uff1a32_PM).html",
+      "replacement_count": 80,
+      "label_counts": {
+        "ORDER_ID": 12,
+        "GIFT_CARD_CODE": 2,
+        "SERIAL_NUMBER": 2,
+        "PHONE": 12,
+        "FIRST_NAME": 2,
+        "MONEY": 50
+      },
+      "original_value_hashes": [
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "09f5144ebce699af"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "0af293b15215d0fb"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "401eb2e927e8525c"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "a7b79c83e1d43e17"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "e00dd7a36509afee"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "1fba1dc7da7c11c2"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "f1762b4a8ebf72d4"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "4168cebae9aec72b"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "ed6b3ebd12ccd37e"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "519f8b9997d89fe2"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "86a34a20af09a08e"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "fb6bcd4b20fb0102"
+        },
+        {
+          "label": "GIFT_CARD_CODE",
+          "sha256_16": "ac2d17b42b9f0cc7"
+        },
+        {
+          "label": "SERIAL_NUMBER",
+          "sha256_16": "5193941a69796df2"
+        },
+        {
+          "label": "GIFT_CARD_CODE",
+          "sha256_16": "fd85842f380c78b8"
+        },
+        {
+          "label": "SERIAL_NUMBER",
+          "sha256_16": "e4e40d026919eb71"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "23d6d6338ad3abe6"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "948610faba45f909"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "42630b8cca7fc1ff"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "21b3ee9e5dba05fa"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "dea78221d4ae2daa"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "0174925e11180bfa"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "e34ca137cc4c957b"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "40e15ca54d3c1fb2"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "956af563bc816172"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "1466381bf2669e13"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "7ff8fecc06a2c0da"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "1124bade5131f9c2"
+        },
+        {
+          "label": "FIRST_NAME",
+          "sha256_16": "b33a55596a12d5df"
+        },
+        {
+          "label": "FIRST_NAME",
+          "sha256_16": "cf65c040e3f06e7b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "6c49b62f0bb1e54a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "cb9c155f8c2e69f5"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "bd9aed68b6962b82"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "26d1d4de2ffcab54"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "ce2fd7f1ed688308"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "831624e3dda6525b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "c6da5e2e7708720e"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7298e753fb60d584"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "60bb47626fc4affb"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "ebe8417b2108fdbe"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "2a0885c147f53796"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "fbf36001da8591a3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "8c93ea42214806f4"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "354729a99ef2a84a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "0be00d07f846883f"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "80312deeddc45b7b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "6fc4c6925b924594"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "fe94f3736934d0c5"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "550134234300f58a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "aa259e4c4ec5f4be"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "3d02885e0cab0622"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "069cd20843a49df0"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "4a8fb86b2d062c87"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "23cb98698ff4d570"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "898529b63b04f5c9"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "c686da77c6a68c84"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "711b434515854d11"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "494852fbac58d6de"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7543a09c4afdf6b3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "118db086cc099f29"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "a87946705c5adde8"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1f42eea9781f04d1"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1823276bbbb96a8c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "af4a050127750a72"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "49120903f6f3aa4d"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "8537c18717712e8c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1ed44d0c8f34cc7a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "51e42aec27492f6e"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "bd475521c171eb19"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "57bde66304e113a3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "0f779d030710d4d6"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "6cd5c5ded18a2d6c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "6a7d53bf8e06281c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "b71d3a8a41c99332"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7c3b179a4d710191"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "bea441bb8dfffaaa"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "e2eb7e6e0d785895"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1c65ee9618ee2c15"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "cc0900e8ba46abab"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "9337e338116ae791"
+        }
+      ],
+      "synthetic_preview": [
+        {
+          "label": "ORDER_ID",
+          "synthetic": "681-1910026-4072156"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "365-8055723-4461194"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "453-6626057-2243801"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "227-8279821-1591437"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "819-4673478-3771849"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "877-3671742-6589968"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "264-3883198-3736100"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "489-2900652-4317924"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "979-9119993-2347762"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "397-8444668-7417038"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "706-4030771-3309401"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "675-6007773-1090102"
+        }
+      ],
+      "leakage_audit": {
+        "passed": true,
+        "leaked_original_hashes": []
+      }
+    },
+    {
+      "index": 1,
+      "source": "Place Your Order - Amazon Checkout (7_11_2026 4\uff1a20\uff1a25 PM).html",
+      "output": "training/generated-html/amazon_synth_00001_Place_Your_Order_-_Amazon_Checkout_(7_11.html",
+      "would_write": "training/generated-html/amazon_synth_00001_Place_Your_Order_-_Amazon_Checkout_(7_11.html",
+      "replacement_count": 12,
+      "label_counts": {
+        "FULL_ADDRESS": 1,
+        "CITY_STATE_ZIP": 1,
+        "STREET_ADDRESS": 1,
+        "PERSON_NAME": 1,
+        "MONEY": 7,
+        "CARD_TAIL": 1
+      },
+      "original_value_hashes": [
+        {
+          "label": "FULL_ADDRESS",
+          "sha256_16": "4b63723fb9e6c5bc"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "sha256_16": "8938066c83d2e0c9"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "sha256_16": "4f81945d9e11b460"
+        },
+        {
+          "label": "PERSON_NAME",
+          "sha256_16": "e5ed6879626af88d"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7298e753fb60d584"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "ebb41588e98e8ad8"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "e0f96cda71143775"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "365d68fddeb71bb8"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "f9479ba3ba5e2de6"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "51e42aec27492f6e"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "5af2ace10d495155"
+        },
+        {
+          "label": "CARD_TAIL",
+          "sha256_16": "cd4baebba3488532"
+        }
+      ],
+      "synthetic_preview": [
+        {
+          "label": "FULL_ADDRESS",
+          "synthetic": "9594 Sunset Lane Apt 7B, San Diego, CA, 92103, United States"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "synthetic": "San Diego, CA 92103"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "synthetic": "9594 Sunset Lane Apt 7B"
+        },
+        {
+          "label": "PERSON_NAME",
+          "synthetic": "Marcus Carter"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$24.73"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$109.40"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$192.72"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$219.17"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$164.85"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$184.58"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$197.80"
+        },
+        {
+          "label": "CARD_TAIL",
+          "synthetic": "8108"
+        }
+      ],
+      "leakage_audit": {
+        "passed": true,
+        "leaked_original_hashes": []
+      }
+    },
+    {
+      "index": 2,
+      "source": "Place Your Order - Amazon Checkout (7_11_2026 4\uff1a23\uff1a25 PM).html",
+      "output": "training/generated-html/amazon_synth_00002_Place_Your_Order_-_Amazon_Checkout_(7_11.html",
+      "would_write": "training/generated-html/amazon_synth_00002_Place_Your_Order_-_Amazon_Checkout_(7_11.html",
+      "replacement_count": 63,
+      "label_counts": {
+        "FULL_ADDRESS": 1,
+        "CITY_STATE_ZIP": 1,
+        "STREET_ADDRESS": 1,
+        "PERSON_NAME": 1,
+        "FIRST_NAME": 1,
+        "MONEY": 58
+      },
+      "original_value_hashes": [
+        {
+          "label": "FULL_ADDRESS",
+          "sha256_16": "4b63723fb9e6c5bc"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "sha256_16": "8938066c83d2e0c9"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "sha256_16": "4f81945d9e11b460"
+        },
+        {
+          "label": "PERSON_NAME",
+          "sha256_16": "e5ed6879626af88d"
+        },
+        {
+          "label": "FIRST_NAME",
+          "sha256_16": "cf65c040e3f06e7b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "bbf25b0acba92c17"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "94f7d221cbe34906"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "5559d0d6f455e072"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "a80dc8eaa86b62e6"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "3a60950a1b49ee34"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "c580e28c561fee83"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "ac7854bc0feaff78"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "d36ee5b16524cec1"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "3256c47c65ed8d67"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "4c7dc57b2f937ff2"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "97c865e23ff1947a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "e08b9a1713e907a8"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "dc92e3558ce3ff13"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "87e022ab3dda4fc9"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "22d12fe6ccc430d9"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "97afdc915c5b2d3b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "f32e9ceb37d48c74"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7543a09c4afdf6b3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "529f0af0cd8dbf54"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "3d02885e0cab0622"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "2cf6556705cf655f"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7fea7e2bb6cf9a75"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "4a8fb86b2d062c87"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "069cd20843a49df0"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "4d20705ee0292410"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "789c52c85f8f7c60"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "03537aa50e34ccc2"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "bb89c30a2df79f42"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "bac91e6c7a26a122"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "534308319a599e4e"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "9d90b18c02392673"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "c686da77c6a68c84"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "6609d84d651be531"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "e391d1d25f309a14"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "83a9482f47f634b2"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "c2a0f5b726feaa0b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "293508f6374641ca"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "6f2c9e076792c0c8"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "118db086cc099f29"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "f1b7c5850db394c0"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1ddfbc886b8c43af"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1c26a0d6dfb922b4"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "d2559a8a5ed174d3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "5e8a9b04a1840505"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "a08a2d9d0b927a42"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "cfeeea5ccaf2329c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "ea1ffedca72d0008"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "e9ad1ef4a9666726"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "577efa4f586b1ffb"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "afff59e44ac8e5a5"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "bea441bb8dfffaaa"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "31b3f00eb03fdb4c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "0ef64ae9b541c16e"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "bf61b04b6358285a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "ee80ec0ffe314989"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "8b3b95f5f651a831"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "4ad0529b788bc28e"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "6e5363e3b5d2cb56"
+        }
+      ],
+      "synthetic_preview": [
+        {
+          "label": "FULL_ADDRESS",
+          "synthetic": "8156 Oak Street, Austin, TX, 78704, United States"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "synthetic": "Austin, TX 78704"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "synthetic": "8156 Oak Street"
+        },
+        {
+          "label": "PERSON_NAME",
+          "synthetic": "Leo Singh"
+        },
+        {
+          "label": "FIRST_NAME",
+          "synthetic": "Leo"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$220.64"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$180.74"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$21.85"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$179.46"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$235.93"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$202.10"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$165.23"
+        }
+      ],
+      "leakage_audit": {
+        "passed": true,
+        "leaked_original_hashes": []
+      }
+    },
+    {
+      "index": 3,
+      "source": "Track Package (7_11_2026 4\uff1a08\uff1a13 PM).html",
+      "output": "training/generated-html/amazon_synth_00003_Track_Package_(7_11_2026_4\uff1a08\uff1a13_PM).html",
+      "would_write": "training/generated-html/amazon_synth_00003_Track_Package_(7_11_2026_4\uff1a08\uff1a13_PM).html",
+      "replacement_count": 31,
+      "label_counts": {
+        "CITY_STATE_ZIP": 1,
+        "STREET_ADDRESS": 1,
+        "FIRST_NAME": 2,
+        "MONEY": 27
+      },
+      "original_value_hashes": [
+        {
+          "label": "CITY_STATE_ZIP",
+          "sha256_16": "179c17cf920616c3"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "sha256_16": "40e97a1fa91d4234"
+        },
+        {
+          "label": "FIRST_NAME",
+          "sha256_16": "b33a55596a12d5df"
+        },
+        {
+          "label": "FIRST_NAME",
+          "sha256_16": "cf65c040e3f06e7b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7b037ee1f062f4e5"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7298e753fb60d584"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "c6da5e2e7708720e"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "4a8fb86b2d062c87"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "2cf6556705cf655f"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7c11c4e0a9971414"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "03074129ebf2d1c3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1ed44d0c8f34cc7a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "711b434515854d11"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "118db086cc099f29"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "a87946705c5adde8"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1f42eea9781f04d1"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1823276bbbb96a8c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "af4a050127750a72"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "49120903f6f3aa4d"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "3d02885e0cab0622"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "069cd20843a49df0"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "23cb98698ff4d570"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "898529b63b04f5c9"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "c686da77c6a68c84"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "494852fbac58d6de"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7543a09c4afdf6b3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "bea441bb8dfffaaa"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "e2eb7e6e0d785895"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1c65ee9618ee2c15"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "cc0900e8ba46abab"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "6a7d53bf8e06281c"
+        }
+      ],
+      "synthetic_preview": [
+        {
+          "label": "CITY_STATE_ZIP",
+          "synthetic": "Portland, OR 97214"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "synthetic": "243 Market Street Apt 32F"
+        },
+        {
+          "label": "FIRST_NAME",
+          "synthetic": "Nina"
+        },
+        {
+          "label": "FIRST_NAME",
+          "synthetic": "Nina"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$153.05"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$182.78"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$89.01"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$52.17"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$181.17"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$154.51"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$230.89"
+        },
+        {
+          "label": "MONEY",
+          "synthetic": "$196.84"
+        }
+      ],
+      "leakage_audit": {
+        "passed": true,
+        "leaked_original_hashes": []
+      }
+    },
+    {
+      "index": 4,
+      "source": "Your Addresses (7_11_2026 4\uff1a12\uff1a22 PM).html",
+      "output": "training/generated-html/amazon_synth_00004_Your_Addresses_(7_11_2026_4\uff1a12\uff1a22_PM).html",
+      "would_write": "training/generated-html/amazon_synth_00004_Your_Addresses_(7_11_2026_4\uff1a12\uff1a22_PM).html",
+      "replacement_count": 32,
+      "label_counts": {
+        "STREET_ADDRESS": 5,
+        "CITY_STATE_ZIP": 4,
+        "PHONE": 2,
+        "PERSON_NAME": 2,
+        "FIRST_NAME": 2,
+        "MONEY": 17
+      },
+      "original_value_hashes": [
+        {
+          "label": "STREET_ADDRESS",
+          "sha256_16": "c1e32573ee5ead07"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "sha256_16": "723cd8a1693b7a03"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "sha256_16": "179c17cf920616c3"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "sha256_16": "58c371bc8dfb1833"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "sha256_16": "0d02adcc489a3dbc"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "sha256_16": "4f81945d9e11b460"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "sha256_16": "a7eb0b9811f85717"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "7578bf6b6f0c365e"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "sha256_16": "9f7b743b58c8e49e"
+        },
+        {
+          "label": "PERSON_NAME",
+          "sha256_16": "7fd8161343d51899"
+        },
+        {
+          "label": "PERSON_NAME",
+          "sha256_16": "e5ed6879626af88d"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "10a8a1e9b19cb6aa"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "sha256_16": "40e97a1fa91d4234"
+        },
+        {
+          "label": "FIRST_NAME",
+          "sha256_16": "b33a55596a12d5df"
+        },
+        {
+          "label": "FIRST_NAME",
+          "sha256_16": "cf65c040e3f06e7b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "c6da5e2e7708720e"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "dc92e3558ce3ff13"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "87e022ab3dda4fc9"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "22d12fe6ccc430d9"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "ac7854bc0feaff78"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "97afdc915c5b2d3b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "3d02885e0cab0622"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "069cd20843a49df0"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "4a8fb86b2d062c87"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "23cb98698ff4d570"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "898529b63b04f5c9"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "c686da77c6a68c84"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "711b434515854d11"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "494852fbac58d6de"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7543a09c4afdf6b3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "5e8a9b04a1840505"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "6a7d53bf8e06281c"
+        }
+      ],
+      "synthetic_preview": [
+        {
+          "label": "STREET_ADDRESS",
+          "synthetic": "4316 Market Street"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "synthetic": "San Diego, CA 92103"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "synthetic": "Atlanta, GA 30308"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "synthetic": "Portland, OR 97214"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "synthetic": "7710 Market Lane"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "synthetic": "3307 Market PKWY"
+        },
+        {
+          "label": "STREET_ADDRESS",
+          "synthetic": "8305 Market Circle"
+        },
+        {
+          "label": "PHONE",
+          "synthetic": "(306) 517-5302"
+        },
+        {
+          "label": "CITY_STATE_ZIP",
+          "synthetic": "Austin, TX 78704"
+        },
+        {
+          "label": "PERSON_NAME",
+          "synthetic": "Jordan Brooks"
+        },
+        {
+          "label": "PERSON_NAME",
+          "synthetic": "Jordan Brooks"
+        },
+        {
+          "label": "PHONE",
+          "synthetic": "(977) 515-5094"
+        }
+      ],
+      "leakage_audit": {
+        "passed": true,
+        "leaked_original_hashes": []
+      }
+    },
+    {
+      "index": 5,
+      "source": "Your Orders (7_11_2026 4\uff1a07\uff1a46 PM).html",
+      "output": "training/generated-html/amazon_synth_00005_Your_Orders_(7_11_2026_4\uff1a07\uff1a46_PM).html",
+      "would_write": "training/generated-html/amazon_synth_00005_Your_Orders_(7_11_2026_4\uff1a07\uff1a46_PM).html",
+      "replacement_count": 62,
+      "label_counts": {
+        "ORDER_ID": 6,
+        "PERSON_NAME": 2,
+        "PHONE": 6,
+        "FIRST_NAME": 1,
+        "MONEY": 47
+      },
+      "original_value_hashes": [
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "de6024054e2c3db4"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "01d88839f1aa5391"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "a8355d92e09dadf6"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "ec0cd36b7cabe260"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "09f5144ebce699af"
+        },
+        {
+          "label": "ORDER_ID",
+          "sha256_16": "0dbe958a4102f832"
+        },
+        {
+          "label": "PERSON_NAME",
+          "sha256_16": "7fd8161343d51899"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "1318381faf2af041"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "120f92b2ceba4783"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "b2d9da42c8e16bb4"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "93a33faec6680388"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "23d6d6338ad3abe6"
+        },
+        {
+          "label": "PHONE",
+          "sha256_16": "503b737222183d93"
+        },
+        {
+          "label": "PERSON_NAME",
+          "sha256_16": "e5ed6879626af88d"
+        },
+        {
+          "label": "FIRST_NAME",
+          "sha256_16": "cf65c040e3f06e7b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "a50a56d7ab161607"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "279a34743d9f022d"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "8165208efa4c8833"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7298e753fb60d584"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "49861034c8920c21"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "5e0618707d0508a8"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "5559d0d6f455e072"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "97afdc915c5b2d3b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7b037ee1f062f4e5"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "099ed76f6c660838"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "118db086cc099f29"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "af4a050127750a72"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "49120903f6f3aa4d"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "4e7921514b93d2ab"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "fe94f3736934d0c5"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "715caae0d9bf0d86"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "cfce4a91a31e841d"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "8ed46f5eb5a4097c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "f5573db8ed244e5a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "069cd20843a49df0"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "3d02885e0cab0622"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7c13d27cbbede58b"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1823276bbbb96a8c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "819d4105424fd17a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "6a76b3e5a71fabdf"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7543a09c4afdf6b3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "4a8fb86b2d062c87"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "7c11c4e0a9971414"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "2cf6556705cf655f"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "d2559a8a5ed174d3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "afe62ed3cf24407d"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "03074129ebf2d1c3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "48ca7ec398859853"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "b958f8b3c2bfa4cd"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "a87946705c5adde8"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1f42eea9781f04d1"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "8537c18717712e8c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1ed44d0c8f34cc7a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "d57527452fec8721"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "be5596f61f81f4f3"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "bea441bb8dfffaaa"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "e2eb7e6e0d785895"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "1c65ee9618ee2c15"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "cc0900e8ba46abab"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "c28b352f196aca0a"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "aea04ce19156911c"
+        },
+        {
+          "label": "MONEY",
+          "sha256_16": "9337e338116ae791"
+        }
+      ],
+      "synthetic_preview": [
+        {
+          "label": "ORDER_ID",
+          "synthetic": "609-1628167-4327712"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "766-8989526-6390775"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "335-4364872-1881828"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "233-4480714-5215541"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "538-3840449-1979005"
+        },
+        {
+          "label": "ORDER_ID",
+          "synthetic": "596-5285750-1554669"
+        },
+        {
+          "label": "PERSON_NAME",
+          "synthetic": "Leo Rivera"
+        },
+        {
+          "label": "PHONE",
+          "synthetic": "(971) 971-4501"
+        },
+        {
+          "label": "PHONE",
+          "synthetic": "(278) 272-8842"
+        },
+        {
+          "label": "PHONE",
+          "synthetic": "(743) 511-7849"
+        },
+        {
+          "label": "PHONE",
+          "synthetic": "(687) 208-3840"
+        },
+        {
+          "label": "PHONE",
+          "synthetic": "(570) 253-3327"
+        }
+      ],
+      "leakage_audit": {
+        "passed": true,
+        "leaked_original_hashes": []
+      }
+    }
+  ]
+}
